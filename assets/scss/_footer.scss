@@ -1,0 +1,40 @@
+footer {
+    text-align: center;
+    color: $gray;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    color: $gray;
+    font-size: .7rem;
+}
+
+.socials a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid $pale-blue;
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: $transition;
+}
+
+.socials a:hover {
+    background-color: $blue;
+}
+
+.socials a:hover svg {
+    fill: #fff;
+}
+
+.socials a svg {
+    width: 100%;
+    max-height: 100%;
+    fill: $blue;
+    display: block;
+}
